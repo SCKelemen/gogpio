@@ -1,0 +1,16 @@
+package interrupt
+
+import (
+
+)
+
+type InterruptMux struct {
+  
+}
+
+
+func (m *InterruptMux) InterruptFunc(pin Pin, handler func()) {
+
+}
+
+type Pin int 
